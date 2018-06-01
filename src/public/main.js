@@ -207,7 +207,7 @@ Vue.component('rooms', {
     }
   },
   updated: function() {
-    console.log('updated rooms');
+    console.log('updated rooms...');
   }
 });
 
@@ -352,7 +352,7 @@ Vue.component('messages', {
 Vue.component('message-input', {
   template: `<div class="message-input">
     <div class="wrap">
-    <input type="text" v-on:focus="check" id='textbox' v-on:keydown.enter="submit" v-on:keydown="startTyping" placeholder="Write your message..." />
+    <input type="text" v-on:focus="check" id='textbox' v-on:keydown.enter="submit" v-on:keydown="startTyping" placeholder="Write your message here..." />
     <button class="submit" v-on:click="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
     </div>
   </div>`,
