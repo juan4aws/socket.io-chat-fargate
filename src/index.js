@@ -143,6 +143,14 @@ io.on('connection', function(socket) {
         image: '/images/ecs.png',
         status: 'none',
         onlineCount: 0
+      },
+      {
+        id: 'dynamo',
+        name: 'AWS DynamoDB',
+        preview: 'AWS dynamo NoSQL DB',
+        image: '/images/ecs.png',
+        status: 'none',
+        onlineCount: 0
       }
     ]);
   });
